@@ -8,8 +8,9 @@
 # 每行一个{serv00服务器}，一个服务也可，末尾用,间隔，最后一个服务器末尾无需用,间隔
 ACCOUNTS='[
 {"RES":"n", "REP":"n", "SSH_USER":"你的serv00账号名", "SSH_PASS":"你的serv00账号密码", "REALITY":"你serv00账号名.serv00.net", "SUUID":"自设UUID", "TCP1_PORT":"vless的tcp端口", "TCP2_PORT":"vmess的tcp端口", "UDP_PORT":"hy2的udp端口", "HOST":"s1.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""},
-{"RES":"y", "REP":"y", "SSH_USER":"123456", "SSH_PASS":"7890000", "REALITY":"time.is", "SUUID":"73203ee6-b3fa-4a3d-b5df-6bb2f55073ad", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s16.serv00.com", "ARGO_DOMAIN":"你的argo固定域名", "ARGO_AUTH":"eyJhIjoiOTM3YzFjYWI88552NTFiYTM4ZTY0ZDQzRmlNelF0TkRBd1pUQTRNVEJqTUdVeCJ9"}
-]'
+{"RES":"n", "SSH_USER":"blxdragon", "SSH_PASS":"Linhm940627", "REALITY":"time.is", "SUUID":"277b624b-adbb-4b49-85e2-d5a27bae8f48", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s15.serv00.com", "ARGO_DOMAIN":"sd15.stockcat2023.xyz", "ARGO_AUTH":"eyJhIjoiZDZlZGJjMzkxNzIwNjU4NTE2OGNlMGQ3MTFjNjY2MDMiLCJ0IjoiYzQxMDUyMTQtNTQzMS00MmI0LWE3ZDctZTdmODFkMjI1MzAzIiwicyI6IllqSTRaV00wWVRrdE4yRXhNQzAwWlRVMUxUaG1OV010T0Rnek16Z3paV0ZsWlRJeiJ9"},
+{"RES":"n", "SSH_USER":"nft5059", "SSH_PASS":"Linhm940627", "REALITY":"time.is", "SUUID":"b734ca51-9937-4512-8038-f2dac77d2fb3", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s1.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""} 
+ ]'
 run_remote_command() {
 local RES=$1
 local REP=$2
